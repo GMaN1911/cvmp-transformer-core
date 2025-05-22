@@ -29,10 +29,17 @@ This is the reference implementation of the `CVMP Transformer`, an original tran
 ```bash
 python3 cvmp_transformer_v1_4r.py
 
+## Benchmark
+
+``bash
+python benchmark_runner.py
+
 ---
 
 /cvmp-transformer-core
-├── cvmp_transformer_v1_4r.py        # Full source
+├── cvmp_transformer_v1_4r.py # Full source
+├── benchmark_runner.py # Benchmark against base/works with v1.6x
+├── cvmp_transformer_v1.6x.py # Newest [status]: Running
 ├── LICENSE                          # CVMP-specific open license
 ├── README.md                        # YOU ARE HERE
 ├── test/
